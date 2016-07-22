@@ -1,0 +1,38 @@
+.breadcrumbs {
+  margin: 0 0 33px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffaf3c;
+
+  a {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #fff;
+    padding: 0 24px 0 0;
+
+    &:hover {
+      &:after {
+        right: 2px;
+      }
+    }
+    &:after {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 10px;
+      height: 8px;
+      background: url("../img/quotes.png") no-repeat;
+      background-size: contain;
+      content: '';
+      -webkit-transition: right 200ms ease-in-out;
+      transition: right 200ms ease-in-out;
+    }
+
+  }
+  span {
+    cursor: default;
+  }
+
+}
+

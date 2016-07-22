@@ -1,0 +1,38 @@
+.social-networks {
+  position: absolute;
+  top: 15px;
+  right: 9px;
+  margin: 0;
+}
+.social-networks__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  position: relative;
+  margin: 0 3px;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 18px;
+    fill: #1ba4df;
+  }
+
+}
+.social-networks_2 {
+  top: 21px;
+  right: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
